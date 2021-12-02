@@ -17,7 +17,7 @@ import com.entreprise.boris.models.Service;
 import com.entreprise.boris.service.ServiceServ;
 
 @RestController
-@CrossOrigin("*")
+@CrossOrigin
 public class ServiceCont {
 
 	@Autowired
