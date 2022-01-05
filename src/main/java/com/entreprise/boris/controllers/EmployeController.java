@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import org.springframework.web.bind.annotation.RequestMapping;
 import com.entreprise.boris.models.Employe;
 import com.entreprise.boris.models.Service;
 import com.entreprise.boris.service.EmployeService;
@@ -18,6 +19,7 @@ import com.entreprise.boris.service.ServiceServ;
 
 @RestController
 @CrossOrigin
+@RequestMapping("/me")
 public class EmployeController {
 
 	@Autowired
